@@ -1,0 +1,3 @@
+[14-Jan-2019 09:48:26 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'learn_php'@'localhost' (using password: YES) in /home/q6x9kg7qu5t6/public_html/dataresponse/index.php on line 7
+[14-Jan-2019 09:48:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/q6x9kg7qu5t6/public_html/dataresponse/index.php on line 42
+[14-Jan-2019 09:48:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/q6x9kg7qu5t6/public_html/dataresponse/index.php on line 86

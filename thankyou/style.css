@@ -1,0 +1,141 @@
+@font-face{
+	font-family:ph;
+	src:url(font.woff);
+	}
+
+@font-face{
+	font-family:th;
+	src:url(cursive.ttf);
+	}
+
+body{
+	font-family:ph;
+	}
+.bg{
+	width: 100%;
+	min-height:100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	background: url('back2.jpg') no-repeat center center;
+	background-size: cover;
+	transform: scale(1.1);
+	}
+
+
+.mnitlogo, .mstlogo{
+	position:absolute;
+	top:0px;
+	width:80px;
+	height:80px;
+	margin:10px;
+	transition:0.3s;
+	}
+
+.mstlogo{
+	right:0px;
+	}
+
+.mnitlogo:hover, .mstlogo:hover{
+	margin:5px;
+	width:90px;
+	height:90px;
+	}
+h1{
+	font-size:60px;
+	color:black;
+	}
+#team_id{
+	
+	text-shadow:1px 1px 1px white;
+	font-family:ph;
+	text-align: center;
+	text-decoration: none;
+}
+#button{
+	padding:10px 15px;
+	font-size:30px;
+	border-radius:20px;
+	border:none;
+	opacity:0.85;
+}
+#button span{
+	opacity:1;
+	text-shadow:5px 5px 5px silver,1px 1px 10px gray;
+}
+.h3{
+	text-shadow:1px 1px 1px white;
+	font-family:th;font-size:100px;
+	text-align:center;
+	padding:0px;
+	margin:10px;
+}
+.h1{
+	text-align:center;
+	}
+.h2{
+	font-size:30px;
+	color:black;
+	text-align:center;
+	}
+
+.p{
+	font-size:25px;
+	text-align:center;
+	color:#f1f1f1;
+	font-family:verdana;
+	text-shadow: 1px 1px 5px black, 1px 0px 3px gray;
+	}
+
+#p01{
+	font-family:Arial;
+	font-size:22px;
+	color:#f1f1f1;
+	text-shadow: 2px 1px 5px gray;
+	}
+
+.fb,.it,.yt,.tw{
+	position:fixed;
+	width:50px;
+	height:50px;
+	opacity:0.7;
+	transition: 0.3s;
+	}
+.fb{
+	top:250px;
+	right:15px;
+	}
+.it{
+	top:340px;
+	right:15px;
+	}
+.tw{
+	top:250px;
+	left:15px;
+	}
+.yt{
+	top:340px;
+	left:15px;
+	}
+.fb:hover{
+	top:240px;
+	right:5px;
+	}
+.it:hover{
+	top:330px;
+	right:5px;
+	}
+.tw:hover{
+	top:240px;
+	left:5px;
+	}
+.yt:hover{
+	top:330px;
+	left:5px;
+	}
+.it:hover,.fb:hover,.yt:hover,.tw:hover{
+	width:70px;
+	height:70px;
+	opacity:1.0;
+	}

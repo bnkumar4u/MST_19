@@ -1,0 +1,107 @@
+@font-face{
+font-family:ph;
+src:url(font.woff);
+}
+@font-face{
+font-family:th;
+src:url(cursive.ttf);}
+
+body{
+margin:0px;
+font-family:ph;
+cursor:default;
+}
+.mnitlogo, .mstlogo{
+position:absolute;
+top:0px;
+width:80px;
+height:80px;
+margin:10px;
+transition:0.3s;
+}
+.mnitlogo{
+left:0px;
+}
+.mstlogo{
+right:0px;
+}
+.mnitlogo:hover, .mstlogo:hover{
+margin:5px;
+width:90px;
+height:90px;
+}
+h1{
+width:100%;
+font-size:50px;
+text-align:center;
+color:#e1e1e1;
+}
+p{
+padding-right:80px;
+padding-left:80px;
+font-size:30px;
+text-align: justify;
+  text-justify: inter-word;
+  text-shadow: 1px 1px 5px black, 2px  5px gray;
+color:#f9f9f9;
+}
+.fb,.it,.yt,.tw{
+	position:fixed;
+	width:40px;
+	height:40px;
+	opacity:0.6;
+	transition: 0.3s;
+	}
+.fb{
+	top:230px;
+	right:15px;
+	}
+.it{
+	top:340px;
+	right:15px;
+	}
+.tw{
+	top:230px;
+	left:15px;
+	}
+.yt{
+	top:340px;
+	left:15px;
+	}
+.fb:hover{
+	top:220px;
+	right:5px;
+	}
+.it:hover{
+	top:330px;
+	right:5px;
+	}
+.tw:hover{
+	top:220px;
+	left:5px;
+	}
+.yt:hover{
+	top:330px;
+	left:5px;
+	}
+.it:hover,.fb:hover,.yt:hover,.tw:hover{
+	width:60px;
+	height:60px;
+	opacity:1.0;
+	}
+ .bg {
+    width: 100%;
+    min-height:100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background: url('2.jpg') no-repeat center center;
+    background-size: cover;
+    transform: scale(1.1);
+  }
+.main{
+position:relative;
+margin:auto;
+width:100%;
+}

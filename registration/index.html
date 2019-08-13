@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+	<title>MST 19 | Registration</title>
+		<link rel="icon" type="image/png" href="../favicon.png">
+	<link rel="stylesheet" type="text/css" href="reg/style1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="../files/jquery-3.3.1.slim.min.js"></script>
+	<script src="../files/home.js"></script>
+	<script src="reg/reg.js"></script>
+</head>
+<body>
+	<div class="box">
+		<div class="frm"><h1 id="head">Chess</h1>
+			<div class="left">
+				<input type="checkbox" name="Boys Team" class="chkbx" onclick="male()"><h3>Boys Team</h3>
+				Number of players:<br><br>
+				<select id="mteam" class="slct" disabled=true>
+				</select>
+			</div><div class="right">
+				<input type="checkbox" name="Girls Team" class="chkbx" onclick="female()"><h3>Girls Team</h3>Number of players:<br><br>
+				<select id="fteam" class="slct" disabled=true>
+				</select>
+			</div>
+			<button class="done" onclick="done()">Done</button><button class="cancel" onclick="cancel()">Cancel</button>
+		</div>
+	</div>
+	<div class="bg"></div>
+	<a href="https://www.mnit.ac.in" target="_blank">
+		<img class="mnitlogo" src="../logos/mnitlogo.jpg" alt="MNIT logo"></a>
+		<a href="../"><img class="mstlogo" src="../logos/mstlogo.png" alt="malviya sports tournament"></a>
+		<div class="hd">
+			<h1>Malaviya &nbspSports&nbsp Tournament&nbsp '19</h1>
+			<h3>Annual&nbsp Fest&nbsp of&nbsp M N I T, &nbspJaipur &nbspon&nbsp 21<sup>st</sup>&nbsp -&nbsp 23<sup>rd</sup> Feb 2019</h3>
+		</div>
+		<form class="form" action="../thankyou/index.php" method="post" >
+			<input type="text" name="fullname" placeholder="Full Name" size="40" class="input" spellcheck="false" required><br>
+			<select required name="Gender" class="select" value="">
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+				<option value="Other">Other</option>
+			</select><br>
+			<input required type="email" name="Email" placeholder="Email" class="input mail" spellcheck="false"><br>
+			<input required type="number" name="contact_number" placeholder="Contact Number" class="input" max="9999999999" min="1000000000"><br>
+			<input required type="text" name="College" placeholder="College" size="40" class="input"><br>
+			<input required type="text" name="City" placeholder="City" class="input" spellcheck="false"><br>
+			<select required name="designation" class="select">
+				<option value="Sports official">Sports official</option>
+				<option value="Student sports coordinator">Students sports coordinator</option>
+				<option value="Institute player">Institute player</option>
+			</select>
+			<br><br>
+			<input type="checkbox" name="optional" class="chkbx" id="optional">Optional Member:
+			<input id="op_name"type="text" name="op_name" placeholder="Full Name" size="40" class="input optional" spellcheck="false"><br>
+			<input id="op_contact" type="number" name="op_contact" placeholder="Contact Number" class="input optional" max="9999999999" min="1000000000"><br>
+			<select id="op_designation" name="op_designation" class="select optional">
+				<option value="Sports official">Sports official</option>
+				<option value="Student sports coordinator">Students sports coordinator</option>
+				<option value="Institute player">Institute player</option>
+			</select>
+			<br>
+			<div class="sports" onclick="badminton()"><img src="reg/bd.png">Badminton</div>
+			<div class="sports" onclick="basketball()"><img src="reg/bs.png">Basketball</div>
+			<div class="sports" onclick="chess()"><img src="reg/cs.png">Chess</div>
+			<div class="sports" onclick="cricket()"><img src="reg/cr.png">Cricket</div>
+			<div class="sports" onclick="football()"><img src="reg/ft.png">Football</div>
+			<div class="sports" onclick="gym()"><img src="reg/gy.png">Gym</div>
+			<div class="sports" onclick="kabaddi()"><img src="reg/kb.png">Kabaddi</div>
+			<div class="sports" onclick="tt()"><img src="reg/tt.png">Table Tennis</div>
+			<div class="sports" onclick="tennis()"><img src="reg/tn.png">Tennis</div>
+			<div class="sports" onclick="volleyball()"><img src="reg/vb.png">Volleyball</div>
+			<br><br>
+			<input required type="checkbox" name="agreement" class="chkbx">I accept the <a href="reg/Rules_and_Regulations19.pdf" target="_blank" style="color:#1f2855; border-bottom:black;"><span>Rules and Regulation</span> </a>for participating in this tournament.<br>
+			<br>
+			<input type="hidden" value="" name="game_data"id="game_data">
+			<input type="submit"name="submit" value="Submit" class="submit">
+		</form>
+		
+		<embed name="myMusic" src="../music/bgmusic.mp3" type="audio/mp3"
+		autostart="false" Hidden="true" loop="true" autostart="true" style="width:0px;height:0px;opacity:0;"></embed>
+		<div class="footer">For any queries, Contact Us: Teja: 8290881098&nbsp&nbsp&nbspSakshi: 6375588284&nbsp&nbsp&nbspKeerthi: 6281395751</div>
+	</body>
+	</html>
+	

@@ -1,0 +1,218 @@
+*:focus{
+outline:none;
+}
+html,body{
+position:absolute;
+width:100%;
+height:100%;
+}
+body{
+margin:0px;
+}
+.mnitlogo, .mstlogo{
+position:absolute;
+top:0px;
+width:80px;
+height:80px;
+margin:10px;
+transition:0.3s;
+}
+.mnitlogo{
+left:0px;
+}
+.mstlogo{
+right:0px;
+}
+.mnitlogo:hover, .mstlogo:hover{
+margin:5px;
+width:90px;
+height:90px;
+}
+@font-face{
+font-family:ph;
+src:url(font.woff);
+}
+  .bg {
+    width: 100%;
+    min-height:100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background: url('back1.jpg') no-repeat center center;
+    background-size: cover;
+    transform: scale(1.1);
+  }
+.form{
+  font-size:24px;
+  font-family:ph;
+  min-width:400px;
+width:35%;
+margin:auto;
+text-align:center;
+margin-top:40px;
+}
+.input {
+  font-family:ph;
+  font-size:24px;
+  min-width:400px;
+  width:33%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius:8px;
+  background-color:rgb(176,224,230,0.8);
+  color: black;
+transition:0.3s;
+}
+.input:focus{
+box-shadow: 1px 1px 2px grey, 0 0 25px grey, 0 0 5px grey;
+}
+.select {
+  font-family:ph;
+  font-size:24px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius:8px;
+  background-color:rgb(176,224,230,0.8);
+  color: black;
+  min-width:400px;
+  width:33%;
+}
+
+.submit{
+  font-family:ph;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+font-size:20px;
+  min-width:400px;
+  width:25%;
+transition:0.3s;
+}
+.submit:hover{
+background-color: #1CAC6D;
+cursor:pointer;
+}
+.chkbx{
+position:relative;
+width:20px;
+height:20px;
+top:2px;
+z-index:1;
+}
+.sports{
+border-radius:8px;
+margin:6px;
+border-style:solid;
+border-width:2px;
+cursor:default;
+text-align:left;
+width:160px;
+font-size:20px;
+display:inline-block;
+padding:10px;
+transition:0.3s;
+background-color: rgba(255, 255, 255, 0.3);
+}
+.sports img{
+width:64px;
+height:64px;
+}
+.sports:hover{
+background-color: rgba(255, 255, 255, 0.6);
+}
+.box{
+display:none;
+position:fixed;
+width:100%;
+height:100%;
+z-index:2;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+background-size:cover;
+}
+.frm{
+background-color:rgba(255, 255, 255,0.6);
+font-family:ph;
+text-align:center;
+width:450px;
+height:400px;
+margin:auto;
+margin-top:100px;
+border-radius:5px;
+}
+.frm h1{
+background-color:rgba(176,224,230, 0.6);
+border-radius:5px;
+padding:20px;
+}
+.frm button{
+font-size:20px;
+font-family:ph;
+background-color:powderblue;
+border-style:none;
+width:100px;
+height:50px;
+margin:20px;
+border-radius:5px;
+transition:0.3s;
+}
+.frm button:hover{
+background-color:#00cce6;
+box-shadow: 1px 1px 2px grey, 0 0 25px grey, 0 0 5px grey;
+}
+.slct{
+  font-family:ph;
+  font-size:24px;
+  text-align:center;
+  padding:10px;
+  width:110px;
+  height:50px;
+  border: none;
+  border-radius:5px;
+  background-color:powderblue;
+  transition:0.3s;
+  color: black;
+}
+.slct:hover{
+background-color:#00cce6;
+box-shadow: 1px 1px 2px grey, 0 0 25px grey, 0 0 5px grey;
+}
+.left,.right,.middle{
+display:inline-block;
+height:200px;
+width:225px;
+}
+.hd{
+text-shadow: 1px 1px 2px black, 1px 0 2px blue;
+margin-top:100px;
+text-align:center;
+font-family:ph;
+color:#f1f1f1;
+}
+.hd h1{
+font-size:48px;
+}
+.hd h3{
+font-size:24px;
+}
+.footer{
+font-size:20px;
+font-family:ph;
+color:white;
+text-align:center;
+padding:10px;
+background-color:rgba(0, 0, 0, 0.7);
+}
+.mail
+{
+font-family:Arial bold;
+}

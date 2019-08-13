@@ -1,0 +1,129 @@
+@font-face {
+  font-family: ph;
+  src: url(font.woff);
+}
+html{
+cursor:default;
+}
+a{
+text-decoration:none;
+}
+a:hover{
+	cursor:pointer;
+}
+  .bg {
+    width: 100%;
+    min-height:100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background: url('logos/back.jpg') no-repeat center center;
+    background-size: cover;
+    transform: scale(1.1);
+  }
+body{
+margin: 0px;
+font-family:ph;
+cursor:default;
+}
+.main{
+position:relative;
+  width: 100%;
+  margin:auto;
+margin-top:80px;
+  text-align:center;
+text-shadow: 1px 1px 5px black, 0 0 15px lightgreen, 0 0 5px lightgreen;
+}
+
+.mstlogo{
+  width:230px;
+  height:230px;}
+.mnitlogo{
+position:fixed;
+top:10px;
+right:10px;
+width:80px;
+height:80px;
+  transition: 0.3s;
+}
+.mnitlogo:hover{
+top:5px;
+right:5px;
+width:90px;
+height:90px;
+}
+
+.it:hover,.fb:hover,.yt:hover,.tw:hover{
+width:50px;
+height:50px;
+}
+.fb{
+position:fixed;
+width:40px;
+height:40px;
+bottom:15px;
+left:15px;
+transition: 0.3s;
+}
+.it{
+position:fixed;
+width:40px;
+height:40px;
+bottom:15px;
+left:70px;
+transition: 0.3s;
+}
+.tw{
+position:fixed;
+width:40px;
+height:40px;
+bottom:15px;
+right:70px;
+transition: 0.3s;
+}
+.yt{
+position:fixed;
+width:40px;
+height:40px;
+bottom:15px;
+right:15px;
+transition: 0.3s;
+}
+.bj{font-family:ph;
+display:inline-block;
+padding:10px;
+font-size:20px;
+background-color: transparent;
+border-color:darkblue;
+background-repeat:no-repeat;
+border-style:solid;
+border-width:2px;
+cursor:default;
+color:#f1f1f1;
+border-radius:20px;
+font-weight:semi-bold;
+width:150px;
+height:25px;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+transition:0.3s;
+}
+.bj:hover{
+background-color:darkgreen;
+border-color:darkgreen;
+color:#d2d2d2;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+font-size:48px;
+color:#f1f1f1;
+}
+h2{
+font-size:36px;
+color:#e1e1e1;
+}
+h3{
+font-size:24px;
+color:#f1f1f1;
+}
